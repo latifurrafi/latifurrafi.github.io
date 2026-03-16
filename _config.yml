@@ -3,17 +3,9 @@ author:
   avatar : "/images/Prof_pic.jpeg"
   bio    : "AI Researcher | Teaching Assistant | Organizer"
   location : "Bangladesh"
-  employer : "Daffodil AI Club"
-  email  : "latifur23105101451@diu.edu.bd"
+
+  email  : "your@email.com"
   github : "latifurraffi"
   linkedin : "your-linkedin"
 
-social:
-  - icon: "fab fa-github"
-    link: "https://github.com/latifurraffi"
-
-  - icon: "fab fa-linkedin"
-    link: "https://linkedin.com/in/yourprofile"
-
-  - icon: "fas fa-envelope"
-    link: "mailto:latifur23105101451@diu.edu.bd"
+  employer : "Daffodil AI Club"
