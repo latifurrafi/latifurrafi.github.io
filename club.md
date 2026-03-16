@@ -1,7 +1,7 @@
 ---
-layout: single
 title: "Club"
 permalink: /club/
+layout: single
 author_profile: true
 ---
 
