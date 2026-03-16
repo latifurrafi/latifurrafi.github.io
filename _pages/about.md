@@ -1,37 +1,32 @@
 ---
 layout: about
-title: about
+title: "About"
 permalink: /
 ---
 
-Hello! I am **Md. Latifur Rahman Rafi**, an AI enthusiast, researcher, and educator passionate about **Artificial Intelligence and Large Language Models**.
+Md. Latifur Rahman Rafi is an AI enthusiast, researcher, and educator focused on Artificial Intelligence, Natural Language Processing, and Large Language Models. His work explores areas such as Retrieval-Augmented Generation (RAG), knowledge-intensive NLP, and reliable AI systems. Alongside research, he contributes to education as a Teaching Assistant in DevOps and Cloud Computing at Ostad, where he helps students learn modern infrastructure, deployment pipelines, and cloud technologies. He also serves as the Organizing Secretary of the Daffodil AI Club, leading workshops, research initiatives, and community programs that promote AI learning and collaboration.
 
-Currently I contribute through teaching, research, and leadership roles.
+## Positions
 
-## Teaching Assistant — DevOps & Cloud (Ostad)
+- **AI Researcher**
+- **Teaching Assistant, DevOps & Cloud — Ostad**
+- **Organizing Secretary — Daffodil AI Club**
 
-I work as a Teaching Assistant in **DevOps and Cloud Computing at Ostad**, helping students learn modern infrastructure and deployment practices.
+## Research Focus
 
-Responsibilities include:
+- **Retrieval-Augmented Generation (RAG)**: Investigating dynamic chunking strategies, query routing mechanisms, and confidence-aware retrieval pipelines to enhance factual grounding and response precision in language model outputs.
+- **Large Language Models (LLMs)**: Examining the architectural foundations and reliability limitations of contemporary LLMs, with particular attention to knowledge integration and generalisation across diverse tasks.
+- **Hallucination Mitigation**: Studying retrieval-based and confidence-estimation approaches to detect and suppress confabulated outputs in generative AI systems, improving trustworthiness in knowledge-intensive settings.
+- **AI Systems & Intelligent Pipelines**: Exploring the design of modular, scalable AI architectures that effectively combine retrieval, reasoning, and generation components for real-world deployment.
 
-- Teaching DevOps and cloud fundamentals
-- Assisting students with CI/CD pipelines
-- Supporting hands-on learning with containers and cloud architecture
+## Club Highlights
 
-## Research — Large Language Models
+- **Daffodil AI Club – Organizing Secretary**: Lead planning and coordination of seminars, contests, hackathons, and community events that connect students with practical AI engineering and research culture.
+- **Key activities**: Inauguration ceremony, technical seminars (e.g., digital twins, AI engineering), international opportunity sessions for CSE students, and community-building events.
+- **Dedicated page**: See the [Club](/club/) page for detailed descriptions of seminars, contests & hackathons, and courses (including the **AI Engineering MasterClass 2026**).
 
-My research interests include:
+## Contact
 
-- Large Language Models (LLMs)
-- Retrieval-Augmented Generation (RAG)
-- Knowledge-intensive NLP
-- AI systems and reliability
-
-## Leadership — Daffodil AI Club
-
-I serve as **Organizing Secretary of the Daffodil AI Club**, helping organize AI workshops, research initiatives, and community programs.
-
-## News
-
-- **2026** — Teaching Assistant (DevOps & Cloud), Ostad  
-- **2026** — Organizing Secretary, Daffodil AI Club
+- **Email**: [latifurrafi@gmail.com](mailto:latifurrafi@gmail.com)  
+- **GitHub**: [`github.com/latifurrafi`](https://github.com/latifurrafi)  
+- **LinkedIn**: [`md-latifur-rahman-rafi`](https://www.linkedin.com/in/md-latifur-rahman-rafi-b01089276)  

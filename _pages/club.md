@@ -1,7 +1,7 @@
 ---
-title: "Club Activities"
-permalink: /club/
 layout: single
+title: "Club"
+permalink: /club/
 author_profile: true
 ---
 
