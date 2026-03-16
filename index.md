@@ -6,15 +6,13 @@ author_profile: true
 author: "Md. Latifur Rahman Rafi"
 ---
 
-Md. Latifur Rahman Rafi is an AI enthusiast, researcher, and educator focused on Artificial Intelligence, Natural Language Processing, and Large Language Models. His work explores areas such as Retrieval-Augmented Generation (RAG), knowledge-intensive NLP, and reliable AI systems. Alongside research, he contributes to education as a Teaching Assistant in DevOps and Cloud Computing at Ostad, where he helps students learn modern infrastructure, deployment pipelines, and cloud technologies. He also serves as the Organizing Secretary of the Daffodil AI Club, leading workshops, research initiatives, and community programs that promote AI learning and collaboration.
+I am an AI researcher and educator pursuing a B.Sc. in Computer Science and Engineering (CSE). My interests focus on Artificial Intelligence and Large Language Models, with particular emphasis on Retrieval-Augmented Generation (RAG), fine-tuning techniques, and reliable AI systems. I currently work as a Teaching Assistant in DevOps and Cloud Computing at [Ostad](https://ostad.app/instructor/204088), where I support hands-on learning in modern infrastructure, deployment pipelines, and cloud technologies. I am also the founding Organizing Secretary of the Daffodil AI Club and contribute to initiatives at the AI Research Center, helping organize workshops, research activities, and community programs that promote AI learning and collaboration.
 
 ---
 
 ### Positions
 
-- **AI Researcher**
-- **Teaching Assistant, DevOps & Cloud — Ostad**
-- **Organizing Secretary — Daffodil AI Club**
+**AI Researcher · Teaching Assistant · Organizer**
 
 ---
 

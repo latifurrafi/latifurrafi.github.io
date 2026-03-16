@@ -23,8 +23,13 @@ url: https://latifurrafi.github.io
 baseurl: ""
 
 # -----------------------------------------------------------------------------
-# Social integration
+# Social integration (also set author for footer/sidebar)
 # -----------------------------------------------------------------------------
+
+author:
+  name: "Md. Latifur Rahman Rafi"
+  github: latifurrafi
+  linkedin: md-latifur-rahman-rafi-b01089276
 
 github_username: latifurrafi
 x_username:

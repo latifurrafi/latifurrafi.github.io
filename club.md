@@ -7,7 +7,7 @@ author_profile: true
 
 ### Overview
 
-As Organizing Secretary of the **Daffodil AI Club**, I design and coordinate activities that connect students with practical AI engineering, research culture, and community building. Below is a selection of seminars, contests, hackathons, and courses I have organized or led.
+As a Founding Organizing Secretary of the **Daffodil AI Club**, I design and coordinate activities that connect students with practical AI engineering, research culture, and community building. Below is a selection of seminars, contests, hackathons, and courses I have organized or led.
 
 ---
 
@@ -39,7 +39,7 @@ As Organizing Secretary of the **Daffodil AI Club**, I design and coordinate act
 
 ### Courses
 
-**Course Coordinator — [AI Engineering MasterClass 2026](https://docs.google.com/document/d/1eMippcuLwi1zSme3w43ByQTkYsxjdau_fN6jpnGbtx8/edit?tab=t.0#heading=h.m1jksmpvtkh5)** *(course outline)*  
+**Course Coordinator — [AI Engineering MasterClass 2026](https://docs.google.com/document/d/1eMippcuLwi1zSme3w43ByQTkYsxjdau_fN6jpnGbtx8/edit?tab=t.0#heading=h.m1jksmpvtkh5)**  
 *Daffodil AI Club, in collaboration with the Department of CSE, Daffodil International University*
 
 Designed and coordinated a four-month cohort-based training program aimed at bridging academic instruction with practical AI system development. The program consisted of 16 structured modules and 32 instructional sessions emphasizing modern AI engineering paradigms including Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Fine-Tune, agentic AI workflows, model evaluation, and deployment pipelines.
