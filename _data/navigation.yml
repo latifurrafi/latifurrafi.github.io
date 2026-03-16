@@ -18,5 +18,8 @@ main:
   - title: "Projects"
     url: /projects/
 
+  - title: "Club"
+    url: /club/
+
   - title: "CV"
     url: /cv/
