@@ -39,16 +39,14 @@ As Organizing Secretary of the **Daffodil AI Club**, I design and coordinate act
 
 ### Courses
 
-**Course Coordinator — AI Engineering MasterClass 2026**  
+**Course Coordinator — [AI Engineering MasterClass 2026](https://docs.google.com/document/d/1eMippcuLwi1zSme3w43ByQTkYsxjdau_fN6jpnGbtx8/edit?tab=t.0#heading=h.m1jksmpvtkh5)** *(course outline)*  
 *Daffodil AI Club, in collaboration with the Department of CSE, Daffodil International University*
 
-Designed and coordinated a four-month cohort-based training program aimed at bridging academic instruction with practical AI system development. The program consisted of 16 structured modules and 32 instructional sessions emphasizing modern AI engineering paradigms including Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), agentic AI workflows, model evaluation, and deployment pipelines.
+Designed and coordinated a four-month cohort-based training program aimed at bridging academic instruction with practical AI system development. The program consisted of 16 structured modules and 32 instructional sessions emphasizing modern AI engineering paradigms including Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Fine-Tune, agentic AI workflows, model evaluation, and deployment pipelines.
 
 Led the development of the course curriculum and instructional structure, integrating theoretical foundations with hands-on experimentation. The syllabus was designed to emphasize applied system design, enabling students to develop end-to-end AI applications and portfolio-ready projects using contemporary frameworks such as LangChain, LangGraph, CrewAI, and the OpenAI SDK.
 
 Coordinated academic faculty and industry practitioners to ensure interdisciplinary instruction and industry relevance. Additionally oversaw cohort management, instructional logistics, project supervision, and continuous student support for approximately 35 participants.
 
 The program emphasized collaborative learning, iterative experimentation, and the development of practical competencies in AI system architecture, model integration, and production-oriented workflows.
-
-**Course outline:** [AI Engineering MasterClass – Course Outline (Google Docs)](https://docs.google.com/document/d/1eMippcuLwi1zSme3w43ByQTkYsxjdau_fN6jpnGbtx8/edit?tab=t.0#heading=h.m1jksmpvtkh5)
 
