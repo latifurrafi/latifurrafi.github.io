@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: 
+title: "Md. Latifur Rahman Rafi"
 first_name: Md. Latifur Rahman
 last_name: Rafi
-email: rafilatiful@gmail.com
+email: latifurrafi@gmail.com
 description: >
   AI enthusiast, researcher, and educator working on Artificial Intelligence,
   Large Language Models, and Knowledge-intensive NLP. Teaching Assistant in
@@ -15,20 +15,20 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with 
   <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
-keywords: Artificial Intelligence, Large Language Models, RAG, NLP, DevOps
+keywords: Artificial Intelligence, Natural Language Processing, Large Language Models, RAG, NLP, DevOps
 lang: en
 icon: 🤖
 
-url: https://yourusername.github.io
-baseurl:
+url: https://latifurrafi.github.io
+baseurl: ""
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: yourgithubusername
+github_username: latifurrafi
 x_username:
-linkedin_username: yourlinkedinusername
+linkedin_username: md-latifur-rahman-rafi-b01089276
 scholar_userid:
 semanticscholar_id:
 research_gate_profile:
