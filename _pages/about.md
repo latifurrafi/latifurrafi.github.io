@@ -1,50 +1,37 @@
 ---
+layout: about
+title: about
 permalink: /
-title: "Md. Latifur Rahman"
-author_profile: true
 ---
 
-I am an AI enthusiast and researcher interested in **Artificial Intelligence and Large Language Models (LLMs)**.
+Hello! I am **Md. Latifur Rahman Rafi**, an AI enthusiast, researcher, and educator passionate about **Artificial Intelligence and Large Language Models**.
 
-Currently I contribute to the AI community through **teaching, research, and academic leadership**.
+Currently I contribute through teaching, research, and leadership roles.
 
----
+## Teaching Assistant — DevOps & Cloud (Ostad)
 
-### Teaching Assistant @ Ostad
+I work as a Teaching Assistant in **DevOps and Cloud Computing at Ostad**, helping students learn modern infrastructure and deployment practices.
 
-I work as a **Teaching Assistant in DevOps and Cloud Computing at Ostad**, where I support students in learning modern infrastructure technologies and DevOps workflows.
+Responsibilities include:
 
-My responsibilities include:
+- Teaching DevOps and cloud fundamentals
+- Assisting students with CI/CD pipelines
+- Supporting hands-on learning with containers and cloud architecture
 
-- Assisting students in learning **Cloud Computing and DevOps fundamentals**
-- Supporting hands-on learning with modern tools and workflows
-- Helping students understand **deployment pipelines, containers, and cloud architecture**
+## Research — Large Language Models
 
----
+My research interests include:
 
-### Research Focus
-
-My research interests focus on **Large Language Models (LLMs)** and intelligent AI systems.
-
-Areas of interest include:
-
-- Large Language Models
+- Large Language Models (LLMs)
 - Retrieval-Augmented Generation (RAG)
-- Knowledge-intensive Natural Language Processing
-- Reliable and scalable AI systems
+- Knowledge-intensive NLP
+- AI systems and reliability
 
----
+## Leadership — Daffodil AI Club
 
-### Leadership
+I serve as **Organizing Secretary of the Daffodil AI Club**, helping organize AI workshops, research initiatives, and community programs.
 
-I serve as **Organizing Secretary of the Daffodil AI Club**, where I help organize AI workshops, research initiatives, and community programs.
+## News
 
-Our goal is to promote **AI education, research, and innovation among students**.
-
----
-
-### News
-
-**2026** – Organizing Secretary, Daffodil AI Club  
-**2026** – Teaching Assistant (DevOps & Cloud), Ostad  
-**2025** – Started research on Large Language Models
+- **2026** — Teaching Assistant (DevOps & Cloud), Ostad  
+- **2026** — Organizing Secretary, Daffodil AI Club
