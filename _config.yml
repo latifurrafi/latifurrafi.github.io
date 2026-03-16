@@ -55,6 +55,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  pages:
+    output: true
+    permalink: /:path/
 
 # -----------------------------------------------------------------------------
 # Scholar
