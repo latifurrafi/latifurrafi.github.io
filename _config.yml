@@ -1,8 +1,81 @@
-author:
-  name   : "Md. Latifur Rahman Rafi"
-  avatar : "/images/Profile_pic.jpeg"
-  bio    : "AI Researcher | Teaching Assistant | Organizer"
-  location : "Bangladesh"
-  employer : "Daffodil AI Club"
-  email  : "your@email.com"
-  github : "latifurraffi"
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: 
+first_name: Md. Latifur Rahman
+last_name: Rafi
+email: rafilatiful@gmail.com
+description: >
+  AI enthusiast, researcher, and educator working on Artificial Intelligence,
+  Large Language Models, and Knowledge-intensive NLP. Teaching Assistant in
+  DevOps & Cloud at Ostad and Organizing Secretary at Daffodil AI Club.
+
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with 
+  <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+keywords: Artificial Intelligence, Large Language Models, RAG, NLP, DevOps
+lang: en
+icon: 🤖
+
+url: https://yourusername.github.io
+baseurl:
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+
+github_username: yourgithubusername
+x_username:
+linkedin_username: yourlinkedinusername
+scholar_userid:
+semanticscholar_id:
+research_gate_profile:
+kaggle_id:
+youtube_id:
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+
+blog_name: Rafi's AI Notes
+blog_description: Thoughts on AI, research, and engineering.
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# -----------------------------------------------------------------------------
+# Scholar
+# -----------------------------------------------------------------------------
+
+scholar:
+  last_name: [Rafi]
+  first_name: [Latifur]
+
+  style: apa
+  locale: en
+
+  source: /_bibliography/
+  bibliography: papers.bib
+
+# -----------------------------------------------------------------------------
+# Features
+# -----------------------------------------------------------------------------
+
+enable_darkmode: true
+enable_medium_zoom: true
+enable_progressbar: true
+enable_math: true
+enable_navbar_social: true
