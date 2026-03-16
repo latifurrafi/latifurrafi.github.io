@@ -1,7 +1,8 @@
 ---
 permalink: /
-title: "Md. Latifur Rahman"
+title: "Md. Latifur Rahman Rafi"
 author_profile: true
+layout: single
 ---
 
 Hello! I am **Md. Latifur Rahman Rafi**, an AI enthusiast, researcher, and educator passionate about Artificial Intelligence and Large Language Models.
