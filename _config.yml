@@ -7,3 +7,13 @@ author:
   email  : "latifur23105101451@diu.edu.bd"
   github : "latifurraffi"
   linkedin : "your-linkedin"
+
+social:
+  - icon: "fab fa-github"
+    link: "https://github.com/latifurraffi"
+
+  - icon: "fab fa-linkedin"
+    link: "https://linkedin.com/in/yourprofile"
+
+  - icon: "fas fa-envelope"
+    link: "mailto:latifur23105101451@diu.edu.bd"
