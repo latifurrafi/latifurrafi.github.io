@@ -1,5 +1,5 @@
 ---
-title: "Research Center | "
+title: "Research Center"
 permalink: /research-center/
 layout: single
 author_profile: false

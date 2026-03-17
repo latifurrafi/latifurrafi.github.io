@@ -1,5 +1,5 @@
 ---
-title: "Club | "
+title: "Club"
 permalink: /club/
 layout: single
 author_profile: false

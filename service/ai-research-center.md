@@ -1,5 +1,5 @@
 ---
-title: "AI Research Center | "
+title: "AI Research Center"
 permalink: /service/ai-research-center/
 layout: single
 author_profile: false
