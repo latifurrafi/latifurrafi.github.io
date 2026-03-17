@@ -12,15 +12,9 @@ My interests focus on Artificial Intelligence and Large Language Models, with pa
 
 I currently work as a Teaching Assistant in DevOps and Cloud Computing at [Ostad](https://ostad.app/instructor/204088), where I support hands-on learning in modern infrastructure, deployment pipelines, and cloud technologies.
 
-I am also the founding Organizing Secretary of the Daffodil AI Club and contribute to initiatives at the AI Research Center.
+I am also the founding Organizing Secretary of the [Daffodil AI Club](/club/) and contribute to initiatives at the [AI Research Center](/research-center/).
 
 My involvement includes assisting with research-oriented discussions, supporting technical workshops, and contributing to activities that encourage students to explore research problems in artificial intelligence and machine learning.
-
----
-
-### Positions
-
-**AI Researcher · Teaching Assistant · Organizer**
 
 ---
 
@@ -33,11 +27,11 @@ My involvement includes assisting with research-oriented discussions, supporting
 
 ---
 
-### Club Highlights
+### Research Center
 
-- **Daffodil AI Club – Organizing Secretary**: Lead planning and coordination of seminars, contests, hackathons, and community events that connect students with practical AI engineering and research culture.
-- **Key activities**: Inauguration ceremony, technical seminars (e.g., digital twins, AI engineering), international opportunity sessions for CSE students, and community-building events.
-- **Dedicated page**: See the [Club](/club/) page for detailed descriptions of seminars, contests & hackathons, and courses (including the **AI Engineering MasterClass 2026**).
+My involvement includes assisting with research-oriented discussions, supporting technical workshops, and contributing to activities that encourage students to explore research problems in artificial intelligence and machine learning.
+
+See the [Research Center](/research-center/) page for a brief overview of my contributions and ongoing initiatives.
 
 ---
 
