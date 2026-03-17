@@ -2,8 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: " Rahman Rafi"
-first_name:  Rahman
+title: "Md. Latifur Rahman Rafi"
+title_separator: "|"
+first_name:  Latifur
 last_name: Rafi
 email: latifurrafi@gmail.com
 description: >
@@ -32,9 +33,9 @@ author:
   email: "latifurrafi@gmail.com"
   github: latifurrafi
   linkedin: md-latifur-rahman-rafi-b01089276
+  twitter: Rafi_Echoes
   # Optional (add when ready)
   # googlescholar: "https://scholar.google.com/citations?user=YOUR_ID"
-  # twitter: "your_handle"
 
 github_username: latifurrafi
 x_username:
@@ -65,6 +66,13 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+
+# -----------------------------------------------------------------------------
+# Include custom folders
+# -----------------------------------------------------------------------------
+
+include:
+  - _pages
 
 # -----------------------------------------------------------------------------
 # Scholar

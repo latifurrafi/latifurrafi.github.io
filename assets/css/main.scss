@@ -37,6 +37,26 @@
 // Custom overrides
 // -----------------------------
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+
 // Link style override: remove underlines globally.
 a,
 a:visited,
@@ -48,19 +68,40 @@ a:active {
   text-underline-offset: 0 !important;
 }
 
-// Body + section header sizing (match requested range)
+// Special link color on selected pages (Service/Teaching) – blue, no underline
+.page-links-blue {
+  .page__content a {
+    color: rgb(0, 0, 255) !important;
+  }
+
+  .page__content a:hover,
+  .page__content a:focus {
+    opacity: 0.9;
+  }
+}
+
+// Body + section header sizing and readable width
 .page__content {
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 930px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page__content h2 {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .page__content h3 {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
 }
 
 // Reduce top gap below masthead (match reference style)
 #main {
-  margin-top: 0.75rem !important;
+  margin-top: 1.5rem !important;
 }
 
 // Header layout (Akari-style): icons left, links centered, theme right
@@ -76,6 +117,37 @@ a:active {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+}
+
+.masthead-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000 !important;
+  white-space: nowrap;
+}
+
+.masthead-name:hover,
+.masthead-name:focus {
+  opacity: 0.85;
+}
+
+// Desktop: show name, hide icons. Mobile: hide name, show icons.
+@media (max-width: 1023px) {
+  .masthead-name {
+    display: none;
+  }
+
+  .masthead-social {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .masthead-social {
+    display: none;
+  }
 }
 
 .masthead-bar__center {
@@ -113,6 +185,24 @@ a:active {
   height: 18px;
   display: inline-block;
   vertical-align: middle;
+  object-fit: contain;
+}
+
+.masthead-svg {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentColor;
+}
+
+// Ensure header SVG icons stay visible in both themes
+html[data-theme="dark"] .masthead-icon {
+  filter: invert(1);
+}
+
+html:not([data-theme="dark"]) .masthead-icon {
+  filter: invert(0);
 }
 
 .masthead-bar__links {
@@ -137,7 +227,235 @@ a:active {
   opacity: 0.75;
 }
 
-// Hide sidebar "Website / Email / GitHub / LinkedIn" list under avatar
-.author__urls-wrapper {
-  display: none !important;
+// Active nav item: blue (no underline)
+.masthead-bar__links li.selected > a {
+  color: rgb(0, 0, 255) !important;
+}
+
+// Sidebar social icons: hidden on mobile, shown under bio on desktop
+@media (max-width: 1023px) {
+  .author__urls-wrapper {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .author__urls-wrapper {
+    display: block !important;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+
+  .author__urls-wrapper > button {
+    display: none !important;
+  }
+
+  .author__urls {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 0.25rem 0 0 0;
+    padding: 0;
+  }
+
+  .author__urls li {
+    list-style: none;
+  }
+
+  // Icon-only look (hide text labels)
+  .author__urls a {
+    font-size: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .author__urls i {
+    font-size: 18px;
+  }
+}
+
+// Mobile sidebar author layout: center + larger avatar
+@media (max-width: 1023px) {
+  /* Make header a single aligned row (icons left, hamburger right) */
+  .masthead__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .masthead-bar {
+    flex: 1 1 auto;
+  }
+
+  #main {
+    margin-top: 0.85rem !important;
+  }
+
+  .sidebar {
+    margin-top: 0 !important;
+  }
+
+  .sidebar .author__avatar,
+  .sidebar .author__content {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .sidebar .author__avatar {
+    display: flex;
+    justify-content: center;
+    margin: 0.15rem 0 0.75rem 0;
+  }
+
+  .sidebar .author__avatar img {
+    max-width: 220px;
+    width: 220px;
+    height: 220px;
+    transform: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .sidebar .author__content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+  }
+}
+
+// Mobile header like Akari: icons left, hamburger right, menu in dropdown
+@media (max-width: 1023px) {
+  .masthead-bar__center {
+    display: none;
+  }
+
+  .masthead-bar__right {
+    display: none;
+  }
+
+  .masthead-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 0;
+    position: relative;
+  }
+
+  .masthead-mobile__toggle {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .masthead-mobile__button {
+    width: 42px;
+    height: 38px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    cursor: pointer;
+    padding: 0 8px;
+    border-radius: 8px;
+    align-items: center;
+  }
+
+  .masthead-mobile__button span {
+    height: 2px;
+    width: 22px;
+    background: var(--global-text-color);
+    display: block;
+  }
+
+  .masthead-mobile__panel {
+    display: none;
+    position: absolute;
+    top: 44px;
+    right: 0;
+    background: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    padding: 0.5rem 0.75rem;
+    min-width: 190px;
+    z-index: 999;
+  }
+
+  .masthead-mobile__panel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .masthead-mobile__panel a {
+    display: block;
+    padding: 0.55rem 0.25rem;
+    color: var(--global-text-color);
+  }
+
+  .masthead-mobile__toggle:checked ~ .masthead-mobile__panel {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .masthead-mobile {
+    display: none;
+  }
+}
+
+// Footer social bar (Akari-style)
+.footer-social {
+  background: #fff;
+  padding: 1.25rem 0;
+  margin-top: 2rem;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.footer-social__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1rem;
+}
+
+.footer-social__icons a {
+  color: #000;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social__icons i {
+  font-size: 34px;
+}
+
+.footer-social__img,
+.footer-social__svg {
+  width: 34px;
+  height: 34px;
+}
+
+.footer-social__svg {
+  fill: #000;
+}
+
+// Centered icon row at end of homepage
+.index-social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.25rem 0 0 0;
+}
+
+.index-social-icons img {
+  width: 28px;
+  height: 28px;
+  display: block;
 }

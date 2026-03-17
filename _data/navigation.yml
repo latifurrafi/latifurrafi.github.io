@@ -12,20 +12,11 @@ main:
   - title: "About"
     url: /
 
-  - title: "Research"
-    url: /research/
-
-  - title: "Projects"
-    url: /projects/
-
-  - title: "Research Center"
-    url: /research-center/
-
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Club"
-    url: /club/
+  - title: "Service"
+    url: /service/
 
   - title: "CV"
     url: /cv/

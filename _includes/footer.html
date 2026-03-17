@@ -1,25 +1,33 @@
 {% include base_path %}
 
-{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+<!-- <div class="footer-social">
+  <div class="footer-social__icons" aria-label="Social links">
+    {% if site.author.email %}
+      <a href="mailto:{{ site.author.email }}" aria-label="Email">
+        <img class="footer-social__img" src="{{ '/images/icons/envelope-solid-full.svg' | prepend: base_path }}" alt="Email" loading="lazy" />
+      </a>
+    {% endif %}
+    {% if site.author.googlescholar %}
+      <a href="{{ site.author.googlescholar }}" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i></a>
     {% endif %}
     {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> 💻 GitHub</a></li>
+      <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub" target="_blank" rel="noopener">
+        <img class="footer-social__img" src="{{ '/images/icons/square-github-brands-solid-full.svg' | prepend: base_path }}" alt="GitHub" />
+      </a>
     {% endif %}
-    {% if site.author.bitbucket %}
-      <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+    {% if site.author.linkedin %}
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn" target="_blank" rel="noopener">
+        <img class="footer-social__img" src="{{ '/images/icons/square-linkedin-brands-solid-full.svg' | prepend: base_path }}" alt="LinkedIn" />
+      </a>
     {% endif %}
-    {% if site.atom_feed.hide != true %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% if site.author.twitter %}
+      <a href="https://x.com/{{ site.author.twitter }}" aria-label="X" target="_blank" rel="noopener">
+        <img class="footer-social__img" src="{{ '/images/icons/square-x-twitter-brands-solid-full.svg' | prepend: base_path }}" alt="X" loading="lazy" />
+      </a>
     {% endif %}
-  </ul>
-</div>
-{% endif %}
+  </div>
+</div> -->
 
 <div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated {{ "now" | date: '%Y-%m-%d' }}
+  &copy; Copyright {{ site.time | date: '%Y' }} {{ site.author.name }}. Powered by Jekyll with al-folio theme. Hosted by GitHub Pages. Photos from Unsplash.
 </div>

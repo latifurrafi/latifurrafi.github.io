@@ -5,19 +5,13 @@ layout: single
 author_profile: true
 author: "Md. Latifur Rahman Rafi"
 ---
-<!-- <div class="home-hero">
-  <div class="home-hero__name">Md. Latifur Rahman Rafi</div>
-  <div class="home-hero__roles">
-    B.Sc. Student, Computer Science and Engineering<br />
-    Daffodil International University
-  </div>
-</div> -->
+
 Final-year CSE student at Daffodil International University with research interests in Artificial Intelligence, Large Language Models (LLMs), and Retrieval-Augmented Generation (RAG) systems. Current work focuses on building more reliable and efficient AI systems—particularly confidence-aware hallucination mitigation, efficient retrieval strategies, and adaptive RAG architectures.
 
 
 Undergraduate thesis research explores Retrieval-Augmented Generation (RAG) and hallucination mitigation in large language models, under the supervision of [Prof. Dr. Fernaz Narin Nur](https://scholar.google.com/citations?user=2D3mKUYAAAAJ&hl=en) (Department of Computer Science and Engineering, Daffodil International University). The work explores efficient retrieval strategies and methods for improving the confidence and reliability of AI-generated responses.
 
-Teaching Assistant in DevOps and Cloud Computing at [Ostad](https://ostad.app/instructor/204088), supporting hands-on learning in modern infrastructure, deployment pipelines, and cloud technologies.
+Teaching Assistant in DevOps and Cloud Computing at [Ostad](https://ostad.app/en), supporting hands-on learning in modern infrastructure, deployment pipelines, and cloud technologies.
 
 Founding Organizing Secretary of the [Daffodil AI Club](/club/) and contributor to initiatives at the [AI Research Center](/research-center/).
 
@@ -33,16 +27,20 @@ Involvement includes assisting with research-oriented discussions, supporting te
 - **AI-Driven Digital Twins**: Exploring the integration of artificial intelligence with Digital Twin systems to create intelligent virtual replicas of physical environments. This includes applying machine learning and data-driven modelling to enable real-time monitoring, predictive analysis, and adaptive control in complex cyber–physical systems.
 
 
-<!-- ### Research Center
 
-At the AI Research Center, contributions focus on research-oriented discussions, technical workshops, and community activities that encourage students to explore AI/ML research problems.
+---
 
-See the [Research Center](/research-center/) page for a brief overview of my contributions and ongoing initiatives.
-
---- -->
-
-### Contact
-
-- **Email**: [latifurrafi@gmail.com](mailto:latifurrafi@gmail.com)  
-- **GitHub**: [`github.com/latifurrafi`](https://github.com/latifurrafi)  
-- **LinkedIn**: [`md-latifur-rahman-rafi`](https://www.linkedin.com/in/md-latifur-rahman-rafi-b01089276)  
+<div class="index-social-icons" aria-label="Profile links">
+  <a href="mailto:latifurrafi@gmail.com" aria-label="Email">
+    <img src="/images/icons/envelope-solid-full.svg" alt="Email" />
+  </a>
+  <a href="https://github.com/latifurrafi" aria-label="GitHub" target="_blank" rel="noopener">
+    <img src="/images/icons/square-github-brands-solid-full.svg" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/md-latifur-rahman-rafi-b01089276" aria-label="LinkedIn" target="_blank" rel="noopener">
+    <img src="/images/icons/square-linkedin-brands-solid-full.svg" alt="LinkedIn" />
+  </a>
+  <a href="https://x.com/Rafi_Echoes" aria-label="X" target="_blank" rel="noopener">
+    <img src="/images/icons/square-x-twitter-brands-solid-full.svg" alt="X" />
+  </a>
+</div>

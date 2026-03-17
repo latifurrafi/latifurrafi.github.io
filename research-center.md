@@ -1,8 +1,14 @@
 ---
-title: "Research Center"
+title: "Research Center | "
 permalink: /research-center/
 layout: single
-author_profile: true
+author_profile: false
+---
+
+This page has moved to the Service section.
+
+→ [View the updated AI Research Center service page](/service/ai-research-center/)
+
 ---
 
 ### Overview

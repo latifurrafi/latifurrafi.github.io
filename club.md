@@ -1,8 +1,14 @@
 ---
-title: "Club"
+title: "Club | "
 permalink: /club/
 layout: single
-author_profile: true
+author_profile: false
+---
+
+This page has moved to the Service section.
+
+→ [View the updated AI Club service page](/service/ai-club/)
+
 ---
 
 ### Overview
