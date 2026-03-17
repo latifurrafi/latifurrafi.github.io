@@ -21,6 +21,9 @@ main:
   - title: "Research Center"
     url: /research-center/
 
+  - title: "Teaching"
+    url: /teaching/
+
   - title: "Club"
     url: /club/
 

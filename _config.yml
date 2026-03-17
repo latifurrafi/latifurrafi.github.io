@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: "Md. Latifur Rahman Rafi"
-first_name: Md. Latifur Rahman
+title: " Rahman Rafi"
+first_name:  Rahman
 last_name: Rafi
 email: latifurrafi@gmail.com
 description: >
@@ -28,8 +28,13 @@ baseurl: ""
 
 author:
   name: "Md. Latifur Rahman Rafi"
+  uri: "https://latifurrafi.github.io"
+  email: "latifurrafi@gmail.com"
   github: latifurrafi
   linkedin: md-latifur-rahman-rafi-b01089276
+  # Optional (add when ready)
+  # googlescholar: "https://scholar.google.com/citations?user=YOUR_ID"
+  # twitter: "your_handle"
 
 github_username: latifurrafi
 x_username:

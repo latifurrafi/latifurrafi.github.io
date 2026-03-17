@@ -2,27 +2,57 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><span class="navicon"></span></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
-            <a href="{{ base_path }}/">{{ site.title }}</a>
-          </li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
+      <nav class="masthead-bar" aria-label="Primary navigation">
+        <div class="masthead-bar__left" aria-label="Social links">
+          {% if site.enable_navbar_social %}
+            {% if site.author.email %}
+              <a href="mailto:{{ site.author.email }}" aria-label="Email">
+                <i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
+              </a>
             {% endif %}
-            <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
-              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
-            </li>
-          {% endfor %}
-          <li id="theme-toggle" class="masthead__menu-item persist tail">
-            <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
-          </li>
-        </ul>
-        <ul class="hidden-links hidden"></ul>
+            {% if site.author.googlescholar %}
+              <a href="{{ site.author.googlescholar }}" aria-label="Google Scholar" target="_blank" rel="noopener">
+                <i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i>
+              </a>
+            {% endif %}
+            {% if site.author.github %}
+              <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub" target="_blank" rel="noopener">
+                <img class="masthead-icon" src="{{ '/images/icons/github_3291695.png' | prepend: base_path }}" alt="GitHub" />
+              </a>
+            {% endif %}
+            {% if site.author.linkedin %}
+              <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn" target="_blank" rel="noopener">
+                <img class="masthead-icon" src="{{ '/images/icons/linkedin_3800046.png' | prepend: base_path }}" alt="LinkedIn" />
+              </a>
+            {% endif %}
+            {% if site.author.twitter %}
+              <a href="https://twitter.com/{{ site.author.twitter }}" aria-label="X" target="_blank" rel="noopener">
+                <img class="masthead-icon" src="{{ '/images/icons/letter-x_17158139.png' | prepend: base_path }}" alt="X" />
+              </a>
+            {% endif %}
+          {% endif %}
+        </div>
+
+        <div class="masthead-bar__center">
+          <ul class="masthead-bar__links">
+            {% for link in site.data.navigation.main %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = base_path %}
+              {% endif %}
+              <li class="{% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="masthead-bar__right">
+          <a id="theme-toggle" role="button" aria-labelledby="theme-icon" aria-label="Toggle theme">
+            <i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i>
+          </a>
+        </div>
       </nav>
     </div>
   </div>

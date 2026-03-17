@@ -8,36 +8,136 @@
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
-@import
-    "vendor/breakpoint/breakpoint",
+@import "vendor/breakpoint/breakpoint";
+@import "themes";
+@import "theme/{{ site.site_theme | default: 'default' | append: '_light' }}";
+@import "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}";
+@import "include/mixins";
+@import "vendor/susy/susy";
+@import "layout/reset";
+@import "layout/base";
+@import "include/utilities";
+@import "layout/tables";
+@import "layout/buttons";
+@import "layout/notices";
+@import "layout/masthead";
+@import "layout/navigation";
+@import "layout/footer";
+@import "syntax";
+@import "layout/forms";
+@import "layout/page";
+@import "layout/archive";
+@import "layout/sidebar";
+@import "layout/json_cv";
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
 
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+// -----------------------------
+// Custom overrides
+// -----------------------------
 
-    "include/mixins",
-    "vendor/susy/susy",
+// Link style override: remove underlines globally.
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none !important;
+  text-decoration-thickness: 0 !important;
+  text-underline-offset: 0 !important;
+}
 
-    "layout/reset",
-    "layout/base",
+// Body + section header sizing (match requested range)
+.page__content {
+  font-size: 15px;
+}
 
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
+.page__content h3 {
+  font-size: 15px;
+  font-weight: 700;
+}
 
-    "layout/forms",
+// Reduce top gap below masthead (match reference style)
+#main {
+  margin-top: 0.75rem !important;
+}
 
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
+// Header layout (Akari-style): icons left, links centered, theme right
+.masthead-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
 
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
-;
+.masthead-bar__left,
+.masthead-bar__right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.masthead-bar__center {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.masthead-bar__left a,
+.masthead-bar__right a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.25rem;
+  cursor: pointer;
+}
+
+// Keep center links truly centered, regardless of left icon count
+.masthead-bar__left,
+.masthead-bar__right {
+  flex: 0 0 auto;
+}
+
+.masthead-bar__center {
+  flex: 1 1 auto;
+}
+
+.masthead-bar__left i,
+.masthead-bar__right i {
+  font-size: 0.95em;
+}
+
+.masthead-icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.masthead-bar__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: nowrap;
+}
+
+.masthead-bar__links a {
+  margin: 0;
+  padding: 0.5rem 0;
+  color: #000 !important;
+}
+
+.masthead-bar__links a:hover,
+.masthead-bar__links a:focus {
+  color: #000 !important;
+  opacity: 0.75;
+}
+
+// Hide sidebar "Website / Email / GitHub / LinkedIn" list under avatar
+.author__urls-wrapper {
+  display: none !important;
+}
