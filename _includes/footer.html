@@ -1,23 +1,20 @@
 {% include base_path %}
 
-<!-- <div class="footer-social">
+<div class="footer-social">
   <div class="footer-social__icons" aria-label="Social links">
     {% if site.author.email %}
       <a href="mailto:{{ site.author.email }}" aria-label="Email">
         <img class="footer-social__img" src="{{ '/images/icons/envelope-solid-full.svg' | prepend: base_path }}" alt="Email" loading="lazy" />
       </a>
     {% endif %}
-    {% if site.author.googlescholar %}
-      <a href="{{ site.author.googlescholar }}" aria-label="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i></a>
-    {% endif %}
     {% if site.author.github %}
       <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub" target="_blank" rel="noopener">
-        <img class="footer-social__img" src="{{ '/images/icons/square-github-brands-solid-full.svg' | prepend: base_path }}" alt="GitHub" />
+        <img class="footer-social__img" src="{{ '/images/icons/square-github-brands-solid-full.svg' | prepend: base_path }}" alt="GitHub" loading="lazy" />
       </a>
     {% endif %}
     {% if site.author.linkedin %}
       <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn" target="_blank" rel="noopener">
-        <img class="footer-social__img" src="{{ '/images/icons/square-linkedin-brands-solid-full.svg' | prepend: base_path }}" alt="LinkedIn" />
+        <img class="footer-social__img" src="{{ '/images/icons/square-linkedin-brands-solid-full.svg' | prepend: base_path }}" alt="LinkedIn" loading="lazy" />
       </a>
     {% endif %}
     {% if site.author.twitter %}
@@ -26,7 +23,7 @@
       </a>
     {% endif %}
   </div>
-</div> -->
+</div>
 
 <div class="page__footer-copyright">
   &copy; Copyright {{ site.time | date: '%Y' }} {{ site.author.name }}. Powered by Jekyll with al-folio theme. Hosted by GitHub Pages. Photos from Unsplash.

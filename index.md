@@ -26,19 +26,3 @@ Progressed from Founding Organizing Secretary to President of the [CSE AI Centre
 
 
 
----
-
-<div class="index-social-icons" aria-label="Profile links">
-  <a href="mailto:latifurrafi@gmail.com" aria-label="Email">
-    <img src="/images/icons/envelope-solid-full.svg" alt="Email" />
-  </a>
-  <a href="https://github.com/latifurrafi" aria-label="GitHub" target="_blank" rel="noopener">
-    <img src="/images/icons/square-github-brands-solid-full.svg" alt="GitHub" />
-  </a>
-  <a href="https://www.linkedin.com/in/md-latifur-rahman-rafi-b01089276" aria-label="LinkedIn" target="_blank" rel="noopener">
-    <img src="/images/icons/square-linkedin-brands-solid-full.svg" alt="LinkedIn" />
-  </a>
-  <a href="https://x.com/Rafi_Echoes" aria-label="X" target="_blank" rel="noopener">
-    <img src="/images/icons/square-x-twitter-brands-solid-full.svg" alt="X" />
-  </a>
-</div>
