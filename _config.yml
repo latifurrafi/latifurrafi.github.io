@@ -72,6 +72,8 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
+  blog:
+    output: false
 
 # Default layouts for individual collection item pages
 defaults:

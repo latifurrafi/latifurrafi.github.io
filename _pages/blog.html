@@ -1,0 +1,39 @@
+---
+layout: archive
+title: "Blog"
+permalink: /blog/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p class="projects-intro">Deep-dives and notes on AI, transformers, and large language models. Full articles are published on Medium.</p>
+
+<div class="projects-grid">
+  {% assign blog_posts = site.blog | sort: 'date' | reverse %}
+  {% for post in blog_posts %}
+  <article class="project-card">
+    <div class="project-card__top">
+      {% if post.badge %}<span class="project-card__badge">{{ post.badge }}</span>{% endif %}
+      <h3 class="project-card__title">
+        {% if post.link %}<a href="{{ post.link }}" target="_blank" rel="noopener">{{ post.title }}</a>{% else %}<a href="{{ post.url | prepend: base_path }}">{{ post.title }}</a>{% endif %}
+      </h3>
+      {% if post.date %}<p class="project-card__tagline">{{ post.date | date: "%B %-d, %Y" }}{% if post.read_time %} &middot; {{ post.read_time }}{% endif %}</p>{% endif %}
+    </div>
+
+    <p class="project-card__desc">{{ post.description }}</p>
+
+    {% if post.tech %}
+    <ul class="project-card__tech">
+      {% for t in post.tech %}<li>{{ t }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if post.link %}
+    <span class="project-card__link"><i class="fab fa-medium" aria-hidden="true"></i> Read on Medium</span>
+    {% else %}
+    <span class="project-card__link">Read more</span>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>
