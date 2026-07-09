@@ -666,6 +666,32 @@ html[data-theme="dark"] .footer-social__img {
   color: var(--global-fig-caption-color);
 }
 
+// CV download button
+.cv-download-wrap {
+  margin: 0.25rem 0 1rem;
+}
+
+.cv-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.55rem 1.15rem;
+  border-radius: 8px;
+  background: var(--global-link-color);
+  color: #fff !important;
+  border: 1px solid var(--global-link-color);
+  transition: opacity 0.15s ease;
+}
+
+.cv-download:hover,
+.cv-download:focus {
+  opacity: 0.88;
+  color: #fff !important;
+}
+
 // Centered icon row at end of homepage
 .index-social-icons {
   display: flex;

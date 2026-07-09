@@ -12,7 +12,7 @@ My service activities span AI research mentoring, technical community building, 
 
 <div class="service-content" markdown="1">
 
-### CSE AI Centre — President (2026– 2027)
+### CSE AI Centre — President (2026 – 2027)
 
 **Research Mentoring**
 
@@ -40,6 +40,7 @@ My service activities span AI research mentoring, technical community building, 
 - Webinar Organizer: AI Engineering MasterClass, Daffodil International University, 2026.
 - Seminar Organizer: Digital Twin — Transforming the Future of Intelligent Systems, Daffodil International University, 2026.
 - Seminar Organizer: What Does the Industry Really Expect from Future AI & ML Engineers?, Daffodil International University, 2026.
+- Seminar Organizer: Opportunity for CSE Students in Foreign Countries, Daffodil International University, 2026.
 
 **Workshops & Bootcamps**
 

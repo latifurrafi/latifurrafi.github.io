@@ -11,11 +11,9 @@ Final-year CSE student at Daffodil International University with research intere
 
 Undergraduate thesis research explores Retrieval-Augmented Generation (RAG) and hallucination mitigation in large language models, under the supervision of [Prof. Dr. Fernaz Narin Nur](https://scholar.google.com/citations?user=2D3mKUYAAAAJ&hl=en) (Department of Computer Science and Engineering, Daffodil International University). The work explores efficient retrieval strategies and methods for improving the confidence and reliability of AI-generated responses.
 
-Teaching Assistant in DevOps and Cloud Computing at [Ostad](https://ostad.app/en), supporting hands-on learning in modern infrastructure, deployment pipelines, and cloud technologies.
+Teaching Assistant for the Mastering DevOps program at [Ostad](https://ostad.app/en), supporting hands-on learning in CI/CD, containerization, and cloud deployment.
 
-Progressed from Founding Organizing Secretary to President of the [CSE AI Centre](/service/ai-research-center/) and [Daffodil AI Club](/service/ai-club/).
-
-Involvement includes assisting with research-oriented discussions, supporting technical workshops, and contributing to activities that encourage students to explore research problems in artificial intelligence and machine learning.
+Progressed from Founding Organizing Secretary to President of the [CSE AI Centre and Daffodil AI Club](/service/), leading AI seminars, competitions, workshops, and student research mentoring.
 
 
 ### Research Focus
