@@ -2,44 +2,51 @@
 title: "AI Club"
 permalink: /service/ai-club/
 layout: single
-author_profile: false
+author_profile: true
 classes: page-links-blue
 ---
 
 ### Overview
 
-As a Founding Organizing Secretary of the **Daffodil AI Club**, I design and coordinate activities that connect students with practical AI engineering, research culture, and community building.
+As **President** of the **Daffodil AI Club** (2025 – 2026), I lead and coordinate activities that connect students with practical AI engineering, research culture, and community building.
 
 ---
 
 ### Impact (selected)
 
-- Organized multiple seminars/webinars for student engagement
-- Led club-wide competitions to encourage applied AI skills
-- Coordinated a cohort-based training program (AI Engineering MasterClass)
+- Organized **8** AI events across seminars, webinars, workshops, and a competition
+- Led a club-wide **AI competition** to encourage applied AI skills
+- Coordinating a cohort-based training program (**AI Engineering MasterClass**)
+- Managed speaker coordination, participant registration, and online delivery across sessions
+
+---
+
+### Competitions & Challenges
+
+- **ModalX-AI Challenge** — AI competition for students to solve real-world problems using machine learning and AI tools
 
 ---
 
 ### Seminars & Webinars
 
-- **Inauguration Ceremony – Daffodil AI Club**
-- **Digital Twin Seminar: Transforming the Future of Intelligent Systems**
-- **Online Webinar on AI Engineering**
-- **Opportunity as CSE Students in Foreign Countries**
+- **Daffodil AI Club Official Inauguration Ceremony** — Coordinated the logistics and program for the club's founding event
+- **Webinar: AI Engineering MasterClass** — Managed speaker coordination, participant registration, and online delivery
+- **Seminar: Digital Twin — Transforming the Future of Intelligent Systems** — Technical seminar on Digital Twin technology and intelligent systems
+- **Seminar: How to Choose a Research Topic & Start Research** — Academic guidance seminar for undergraduate students beginning their research journey
+- **Seminar: What Does the Industry Really Expect from Future AI & Machine Learning Engineers?** — Industry-focused seminar on the real-world skills, tools, and expectations for aspiring AI and ML engineers entering the workforce
 
 ---
 
-### Contests & Hackathons
+### Workshops & Bootcamps
 
-- **Logo Design Contest – Daffodil AI Club**
-- **ModalX-AI Contest**
+- **Online Session: Data to Dashboard — Hands-on Power BI** — Practical live session on data visualization with Power BI
+- **ML Bootcamp for Beginners** *(Powered by Shohoj Coding)* — Coordinated a hands-on machine learning bootcamp for beginners as Club Coordinator, in collaboration with Shohoj Coding
 
 ---
 
-### Courses
+### Programs
 
-**Course Coordinator — [AI Engineering MasterClass 2026](https://docs.google.com/document/d/1eMippcuLwi1zSme3w43ByQTkYsxjdau_fN6jpnGbtx8/edit?tab=t.0#heading=h.m1jksmpvtkh5)**  
-*Daffodil AI Club, in collaboration with the Department of CSE, Daffodil International University*
+**[AI Engineering MasterClass 2026](https://docs.google.com/document/d/1eMippcuLwi1zSme3w43ByQTkYsxjdau_fN6jpnGbtx8/edit?tab=t.0#heading=h.m1jksmpvtkh5)** *(CSE AI Centre initiative)*  
+*Coordinated through Daffodil AI Club and the Department of CSE, Daffodil International University*
 
-I coordinated a four-month cohort-based training program designed to bridge academic learning with practical AI system development.
-
+I assist with scheduling, instructor coordination, participant communication, and session facilitation for this ongoing cohort-based training program bridging academic AI with practical system development.

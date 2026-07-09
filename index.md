@@ -13,7 +13,7 @@ Undergraduate thesis research explores Retrieval-Augmented Generation (RAG) and 
 
 Teaching Assistant in DevOps and Cloud Computing at [Ostad](https://ostad.app/en), supporting hands-on learning in modern infrastructure, deployment pipelines, and cloud technologies.
 
-Founding Organizing Secretary of the [Daffodil AI Club](/club/) and contributor to initiatives at the [AI Research Center](/research-center/).
+President of the [CSE AI Centre](/service/ai-research-center/) and [Daffodil AI Club](/service/ai-club/).
 
 Involvement includes assisting with research-oriented discussions, supporting technical workshops, and contributing to activities that encourage students to explore research problems in artificial intelligence and machine learning.
 
