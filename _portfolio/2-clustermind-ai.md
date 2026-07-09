@@ -1,6 +1,13 @@
 ---
-title: "ClusterMind AI — AI Scheduler for GPU Clusters"
-excerpt: "Built for the DIU AI Innovation Hackathon 2026 — a real-time dashboard tracking per-node GPU/CPU/memory with an XGBoost scheduler recommending optimal node placement against live drifting metrics.<br/><strong>Tools:</strong> TypeScript, Python, XGBoost, React"
+title: "ClusterMind AI"
+tagline: "AI Scheduler for GPU Clusters"
+featured: "Hackathon 2026"
+description: "A real-time dashboard tracking per-node GPU, CPU, and memory, with an XGBoost scheduler recommending optimal node placement against live drifting metrics."
+tech:
+  - TypeScript
+  - Python
+  - XGBoost
+  - React
 collection: portfolio
 permalink: /portfolio/clustermind-ai/
 link: https://github.com/latifurrafi/ClusterMind-AI

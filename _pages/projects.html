@@ -1,0 +1,39 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+redirect_from:
+  - /portfolio/
+  - /portfolio
+---
+
+{% include base_path %}
+
+<p class="projects-intro">A selection of research, systems, and full-stack projects spanning LLMs, Machine Learning, RAG, and DevOps. Each card links to its source on GitHub.</p>
+
+<div class="projects-grid">
+  {% for post in site.portfolio %}
+  <article class="project-card">
+    <div class="project-card__top">
+      {% if post.featured %}<span class="project-card__badge">{{ post.featured }}</span>{% endif %}
+      <h3 class="project-card__title">
+        {% if post.link %}<a href="{{ post.link }}" target="_blank" rel="noopener">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
+      </h3>
+      {% if post.tagline %}<p class="project-card__tagline">{{ post.tagline }}</p>{% endif %}
+    </div>
+
+    <p class="project-card__desc">{{ post.description }}</p>
+
+    {% if post.tech %}
+    <ul class="project-card__tech">
+      {% for t in post.tech %}<li>{{ t }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if post.link %}
+    <span class="project-card__link"><i class="fab fa-github" aria-hidden="true"></i> View Source</span>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>

@@ -1,6 +1,12 @@
 ---
-title: "Vote-Ai — Full-Stack Online Voting Platform"
-excerpt: "A full-stack voting platform with Google OAuth authentication and MySQL, supporting club-based voting with real data population, admin tooling, and a complete UML documentation suite.<br/><strong>Tools:</strong> Python, Django, Google OAuth, MySQL"
+title: "Vote-Ai"
+tagline: "Full-Stack Online Voting Platform"
+description: "A full-stack voting platform with Google OAuth and MySQL, supporting club-based voting with admin tooling and a complete UML documentation suite."
+tech:
+  - Python
+  - Django
+  - Google OAuth
+  - MySQL
 collection: portfolio
 permalink: /portfolio/vote-ai/
 link: https://github.com/latifurrafi/Vote-Ai

@@ -1,6 +1,11 @@
 ---
-title: "Todo CI/CD — Automated Deployment Pipeline"
-excerpt: "A Django task application instrumented with GitHub Actions workflows for automated testing and continuous deployment — a working pipeline from commit to deploy.<br/><strong>Tools:</strong> Python, Django, GitHub Actions"
+title: "Todo CI/CD"
+tagline: "Automated Deployment Pipeline"
+description: "A Django task app instrumented with GitHub Actions for automated testing and continuous deployment — a working pipeline from commit to deploy."
+tech:
+  - Python
+  - Django
+  - GitHub Actions
 collection: portfolio
 permalink: /portfolio/todo-ci-cd/
 link: https://github.com/latifurrafi/todo_ci-cd

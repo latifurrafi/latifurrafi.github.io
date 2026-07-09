@@ -1,6 +1,14 @@
 ---
-title: "Credit Risk Predict — Explainable Credit Scoring Pipeline"
-excerpt: "Implementation behind the accepted ICEFronT 2026 (IEEE) paper — a unified credit-risk framework with LightGBM (ROC-AUC 0.756), 5-fold stability validation, bias/fairness checks, and SHAP-based calibration.<br/><strong>Tools:</strong> Python, LightGBM, XGBoost, Scikit-learn, SHAP"
+title: "Credit Risk Predict"
+tagline: "Explainable Credit Scoring Pipeline"
+featured: "IEEE ICEFronT 2026"
+description: "A unified credit-risk framework integrating discrimination, calibration, and explainability — LightGBM (ROC-AUC 0.756), 5-fold stability validation, bias/fairness checks, and SHAP reliability plots."
+tech:
+  - Python
+  - LightGBM
+  - XGBoost
+  - Scikit-learn
+  - SHAP
 collection: portfolio
 permalink: /portfolio/credit-risk-predict/
 link: https://github.com/latifurrafi/Credit_Risk_Predict

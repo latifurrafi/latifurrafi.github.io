@@ -1,6 +1,11 @@
 ---
-title: "RAG Pipeline — Retrieval-Augmented Generation from Scratch"
-excerpt: "A modular RAG system built component-by-component — custom embedder, vector store, retriever, and local LLM client (Ollama) — without relying on a framework wrapper.<br/><strong>Tools:</strong> Python, Ollama, Vector Embeddings"
+title: "RAG Pipeline"
+tagline: "Retrieval-Augmented Generation from Scratch"
+description: "A modular RAG system built component-by-component — custom embedder, vector store, retriever, and local LLM client (Ollama) — without relying on a framework wrapper."
+tech:
+  - Python
+  - Ollama
+  - Vector Embeddings
 collection: portfolio
 permalink: /portfolio/rag-pipeline/
 link: https://github.com/latifurrafi/RAG_Pipeline
