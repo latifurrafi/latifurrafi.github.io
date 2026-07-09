@@ -462,19 +462,51 @@ html[data-theme="dark"] .footer-social__img {
   fill: var(--global-text-color);
 }
 
-// Compact spacing for service page sub-section lists
-.service-content p {
+// Compact spacing for service / teaching page sub-section lists
+.service-content p,
+.teaching-content p {
   margin-bottom: 0.2em;
 }
 
-.service-content ul {
+.service-content ul,
+.teaching-content ul {
   margin-top: 0.1em;
   margin-bottom: 0.5em;
   padding-left: 16px;
 }
 
-.service-content li {
+.service-content li,
+.teaching-content li {
   margin-bottom: 0.1em;
+}
+
+// Meta line under a role heading (e.g. "Remote · Dhaka · Aug 2025 – Present")
+.teaching-content h3 + p em {
+  color: var(--global-fig-caption-color);
+  font-style: normal;
+  font-size: 13.5px;
+}
+
+// Technology / topic tag pills (shared with project cards)
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  list-style: none;
+  margin: 0.35rem 0 0.5rem !important;
+  padding: 0 !important;
+}
+
+.tech-tags li {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0.22rem 0.65rem;
+  border-radius: 6px;
+  background: var(--global-footer-bg-color);
+  border: 1px solid var(--global-border-color);
+  color: var(--global-text-color);
+  margin: 0 !important;
 }
 
 // -----------------------------

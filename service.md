@@ -16,7 +16,7 @@ My service activities span AI research mentoring, technical community building, 
 
 **Research Mentoring**
 
-- Research Mentor: AI/ML Research Guidance *(50+ students)*, CSE AI Centre, Daffodil International University, Summer 2026.
+- Research Mentor: AI, LLMs & RAG Research Guidance *(50+ students)*, Summer 2026, CSE AI Centre, Daffodil International University.
 
 **Courses**
 
