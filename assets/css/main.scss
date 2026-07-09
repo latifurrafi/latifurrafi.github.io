@@ -637,6 +637,35 @@ html[data-theme="dark"] .footer-social__img {
   }
 }
 
+// -----------------------------
+// Awards & Honors list
+// -----------------------------
+.awards-list {
+  margin-top: 1.5rem;
+}
+
+.award-item {
+  border-left: 3px solid var(--global-link-color);
+  padding: 0.1rem 0 0.1rem 1.1rem;
+  margin-bottom: 1.35rem;
+}
+
+.award-item__title {
+  font-family: "Roboto Slab", Georgia, serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.35;
+  color: var(--global-text-color);
+  margin-bottom: 0.25rem;
+}
+
+.award-item__meta {
+  font-family: "Roboto", sans-serif;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--global-fig-caption-color);
+}
+
 // Centered icon row at end of homepage
 .index-social-icons {
   display: flex;

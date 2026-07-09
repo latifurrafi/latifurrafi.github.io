@@ -24,7 +24,7 @@ My service activities span AI research mentoring, technical community building, 
 
 **Seminars**
 
-- Seminar Organizer: How to Choose a Research Topic & Start Research, CSE AI Centre, Daffodil International University, 2025.
+- Seminar Organizer: How to Choose a Research Topic & Start Research, CSE AI Centre, Daffodil International University, 2026.
 
 ---
 
@@ -32,18 +32,18 @@ My service activities span AI research mentoring, technical community building, 
 
 **Competitions**
 
-- Competition Organizer: ModalX-AI Challenge, Daffodil International University, 2025.
+- Competition Organizer: ModalX-AI Challenge, Daffodil International University, 2026.
 
 **Seminars & Webinars**
 
-- Event Organizer: Daffodil AI Club Official Inauguration Ceremony, Daffodil International University, 2025.
-- Webinar Organizer: AI Engineering MasterClass, Daffodil International University, 2025.
-- Seminar Organizer: Digital Twin — Transforming the Future of Intelligent Systems, Daffodil International University, 2025.
-- Seminar Organizer: What Does the Industry Really Expect from Future AI & ML Engineers?, Daffodil International University, 2025.
+- Event Organizer: Daffodil AI Club Official Inauguration Ceremony, Daffodil International University, 2026.
+- Webinar Organizer: AI Engineering MasterClass, Daffodil International University, 2026.
+- Seminar Organizer: Digital Twin — Transforming the Future of Intelligent Systems, Daffodil International University, 2026.
+- Seminar Organizer: What Does the Industry Really Expect from Future AI & ML Engineers?, Daffodil International University, 2026.
 
 **Workshops & Bootcamps**
 
-- Workshop Organizer: Data to Dashboard — Hands-on Power BI, Daffodil International University, 2025.
-- Workshop Co-Organizer: ML Bootcamp for Beginners, Daffodil AI Club & Shohoj Coding, 2025.
+- Workshop Organizer: Data to Dashboard — Hands-on Power BI, Daffodil International University, 2026.
+- Workshop Co-Organizer: ML Bootcamp for Beginners, Daffodil AI Club & Shohoj Coding, 2026.
 
 </div>
