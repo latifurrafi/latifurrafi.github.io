@@ -15,6 +15,8 @@ Teaching Assistant for the Mastering DevOps program at [Ostad](https://ostad.app
 
 Progressed from Founding Organizing Secretary to President of the [CSE AI Centre and Daffodil AI Club](/service/), leading AI seminars, competitions, workshops, and student research mentoring.
 
+Served as Student Organizer and Problem Setter for the [AI Innovation Hackathon 2026](/service/), a Department of CSE initiative seed-funded by the World AI Alliance that drew 108 competing teams. Authored the competition rulebook, problem set, and judging rubric, and coordinated the judging panel and volunteer operations for the onsite final.
+
 
 ### Research Focus
 
