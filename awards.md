@@ -13,7 +13,7 @@ classes: page-links-blue
 <div class="awards-list">
   <div class="award-item">
     <div class="award-item__title">Student Organizer — AI Innovation Hackathon 2026: From Learning to Impact</div>
-    <div class="award-item__meta">Certificate of Appreciation · Department of CSE &amp; CSE AI Centre, Daffodil International University · 25 July 2026</div>
+    <div class="award-item__meta">Certificate of Appreciation &amp; Commemorative Crest · Department of CSE &amp; CSE AI Centre, Daffodil International University · 25 July 2026</div>
   </div>
   <div class="award-item">
     <div class="award-item__title">Problem Setter — AI Innovation Hackathon 2026: From Learning to Impact</div>
