@@ -40,6 +40,11 @@ author:
 # Social sharing preview card (Open Graph / Twitter), relative to /images/
 og_image: og-image.jpg
 
+# Search engine ownership verification (public tokens, safe to commit).
+# Rendered as meta tags by _includes/seo.html. Do not remove once verified.
+google_site_verification: aO9YxmiU5FKmUmCj-Dtop27M1TCx7GrgoPvwh66am1c
+# bing_site_verification:
+
 twitter:
   username: Rafi_Echoes
 
