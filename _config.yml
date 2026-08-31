@@ -37,6 +37,12 @@ author:
   # Optional (add when ready)
   # googlescholar: "https://scholar.google.com/citations?user=YOUR_ID"
 
+# Social sharing preview card (Open Graph / Twitter), relative to /images/
+og_image: og-image.jpg
+
+twitter:
+  username: Rafi_Echoes
+
 github_username: latifurrafi
 x_username:
 linkedin_username: md-latifur-rahman-rafi-b01089276
