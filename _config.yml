@@ -132,3 +132,16 @@ enable_medium_zoom: true
 enable_progressbar: true
 enable_math: true
 enable_navbar_social: true
+
+# -----------------------------------------------------------------------------
+# Plugins
+# -----------------------------------------------------------------------------
+# GitHub Pages ignores the Gemfile's :jekyll_plugins group and only loads
+# plugins declared here. Without this, sitemap.xml, feed.xml, robots.txt and
+# redirect_from pages are never generated on the live site.
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
