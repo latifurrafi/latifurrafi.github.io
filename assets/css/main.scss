@@ -621,6 +621,54 @@ html[data-theme="dark"] .footer-social__img {
 }
 
 // -----------------------------
+// News list (date column + entry)
+// -----------------------------
+.news-list {
+  margin: 1rem 0 0;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 1.75rem;
+  align-items: start;
+  margin-bottom: 1.15rem;
+}
+
+.news-item__date {
+  font-family: "Roboto", sans-serif;
+  font-size: 14.5px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: var(--global-text-color);
+  white-space: nowrap;
+}
+
+.news-item__text {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--global-text-color);
+}
+
+.news-item__text a {
+  color: var(--global-link-color);
+}
+
+.news-item__text a:hover,
+.news-item__text a:focus {
+  opacity: 0.85;
+}
+
+// Stack the date above the entry on narrow screens
+@media (max-width: 700px) {
+  .news-item {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+    margin-bottom: 1.35rem;
+  }
+}
+
+// -----------------------------
 // Awards & Honors list
 // -----------------------------
 .awards-list {

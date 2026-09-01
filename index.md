@@ -28,9 +28,29 @@ Served as Student Organizer and Problem Setter for the [AI Innovation Hackathon 
 
 ### News
 
-- **Aug 2026** · Invited speaker on DevOps and Software Engineering for the TechArenaX Internship Program.
-- **Jul 2026** · Served as Student Organizer and Problem Setter for the [AI Innovation Hackathon 2026](/service/), a 108-team competition seed-funded by the World AI Alliance.
-- **Mar 2026** · Paper on calibrated and explainable credit-risk assessment [accepted at IEEE ICEFronT 2026](/publications/).
-- **Feb 2026** · Paper on ensemble models for heart-failure prediction [accepted at IEEE ICEFronT 2026](/publications/).
-- **Jan 2026** · Core Organizer of the Daffodil AI Club Inauguration Program.
-- **Aug 2025** · Joined [Ostad](https://ostad.app/en) as Teaching Assistant for the Mastering DevOps program.
+<div class="news-list">
+  <div class="news-item">
+    <div class="news-item__date">Aug 25, 2026</div>
+    <div class="news-item__text">Invited speaker on DevOps and Software Engineering at the <a href="https://www.linkedin.com/company/techarenax/">TechArenaX</a> Internship Program session.</div>
+  </div>
+  <div class="news-item">
+    <div class="news-item__date">Jul 25, 2026</div>
+    <div class="news-item__text">Served as Student Organizer and Problem Setter for the <a href="/service/">AI Innovation Hackathon 2026</a>, a 108-team competition seed-funded by the World AI Alliance.</div>
+  </div>
+  <div class="news-item">
+    <div class="news-item__date">Mar 2026</div>
+    <div class="news-item__text">Our paper on calibrated and explainable credit-risk assessment was <a href="/publications/">accepted at IEEE ICEFronT 2026</a>.</div>
+  </div>
+  <div class="news-item">
+    <div class="news-item__date">Feb 2026</div>
+    <div class="news-item__text">Our paper on ensemble models for heart-failure prediction was <a href="/publications/">accepted at IEEE ICEFronT 2026</a>.</div>
+  </div>
+  <div class="news-item">
+    <div class="news-item__date">Jan 31, 2026</div>
+    <div class="news-item__text">Core Organizer of the Daffodil AI Club Inauguration Program.</div>
+  </div>
+  <div class="news-item">
+    <div class="news-item__date">Aug 2025</div>
+    <div class="news-item__text">Joined <a href="https://ostad.app/en">Ostad</a> as a Teaching Assistant for the Mastering DevOps program.</div>
+  </div>
+</div>
