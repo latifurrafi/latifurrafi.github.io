@@ -6,17 +6,13 @@ author_profile: true
 author: "Md. Latifur Rahman Rafi"
 ---
 
-Final-year CSE student at Daffodil International University with research interests in Artificial Intelligence, Large Language Models (LLMs), and Retrieval-Augmented Generation (RAG) systems. Current work focuses on making AI systems more reliable and efficient, particularly through confidence-aware hallucination mitigation, efficient retrieval strategies, context window optimisation, and adaptive RAG architectures.
+Md. Latifur Rahman Rafi is a final-year Computer Science and Engineering student at Daffodil International University, an AI researcher, and President of the [CSE AI Centre and Daffodil AI Club](/service/).
 
+His research focuses on large language models and retrieval-augmented generation, with an emphasis on building AI systems that are more reliable and efficient through hallucination mitigation, confidence-aware generation, efficient retrieval, context optimization, and adaptive RAG architectures.
 
-Undergraduate thesis research explores Retrieval-Augmented Generation (RAG) and hallucination mitigation in large language models, under the supervision of [Prof. Dr. Fernaz Narin Nur](https://scholar.google.com/citations?user=2D3mKUYAAAAJ&hl=en) (Department of Computer Science and Engineering, Daffodil International University). The work examines efficient retrieval strategies and methods for improving the confidence and reliability of AI-generated responses.
+His undergraduate thesis, supervised by [Prof. Dr. Fernaz Narin Nur](https://scholar.google.com/citations?user=2D3mKUYAAAAJ&hl=en), explores retrieval-augmented generation and hallucination mitigation in LLMs, focusing on improving the reliability and confidence of generated responses. His research has also led to [two papers accepted at IEEE ICEFronT 2026](/publications/).
 
-Teaching Assistant for the Mastering DevOps program at [Ostad](https://ostad.app/en), supporting hands-on learning in CI/CD, containerization, and cloud deployment.
-
-Progressed from Founding Organizing Secretary to President of the [CSE AI Centre and Daffodil AI Club](/service/), leading AI seminars, competitions, workshops, and student research mentoring.
-
-Served as Student Organizer and Problem Setter for the [AI Innovation Hackathon 2026](/service/), a Department of CSE initiative seed-funded by the World AI Alliance that drew 108 competing teams. Authored the competition rulebook, problem set, and judging rubric, and coordinated the judging panel and volunteer operations for the onsite final.
-
+Alongside research, he works as a Teaching Assistant for [Ostad](https://ostad.app/en)'s Mastering DevOps program and leads AI seminars, workshops, competitions, and student research initiatives through the CSE AI Centre and Daffodil AI Club.
 
 ### Research Focus
 
