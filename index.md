@@ -6,13 +6,13 @@ author_profile: true
 author: "Md. Latifur Rahman Rafi"
 ---
 
-Md. Latifur Rahman Rafi is a final-year Computer Science and Engineering student at Daffodil International University, an AI researcher, and President of the [CSE AI Centre and Daffodil AI Club](/service/).
+Md. Latifur Rahman Rafi is a final-year Computer Science and Engineering student at Daffodil International University, an AI researcher, and President of the [Daffodil AI Centre and Daffodil AI Club](/service/).
 
 His research focuses on large language models and retrieval-augmented generation, with an emphasis on building AI systems that are more reliable and efficient through hallucination mitigation, confidence-aware generation, efficient retrieval, context optimization, and adaptive RAG architectures.
 
 His undergraduate thesis, supervised by [Prof. Dr. Fernaz Narin Nur](https://scholar.google.com/citations?user=2D3mKUYAAAAJ&hl=en), explores retrieval-augmented generation and hallucination mitigation in LLMs, focusing on improving the reliability and confidence of generated responses. His research has also led to [two papers accepted at IEEE ICEFronT 2026](/publications/), including one as first author.
 
-Alongside research, he leads AI seminars, workshops, competitions, and student research initiatives through the CSE AI Centre and Daffodil AI Club, and served as a Teaching Assistant for [Ostad](https://ostad.app/en)'s Mastering DevOps program from 2025 to 2026.
+Alongside research, he leads AI seminars, workshops, competitions, and student research initiatives through the Daffodil AI Centre and Daffodil AI Club, and served as a Teaching Assistant for [Ostad](https://ostad.app/en)'s Mastering DevOps program from 2025 to 2026.
 
 ### Research Focus
 
@@ -25,6 +25,10 @@ Alongside research, he leads AI seminars, workshops, competitions, and student r
 ### News
 
 <div class="news-list">
+  <div class="news-item">
+    <div class="news-item__date">Sep 19, 2026</div>
+    <div class="news-item__text">Completed Batch 01 of the <a href="/teaching/">AI Engineering Masterclass</a> as Course Coordinator and Teaching Assistant.</div>
+  </div>
   <div class="news-item">
     <div class="news-item__date">Aug 25, 2026</div>
     <div class="news-item__text">Invited speaker on DevOps and Software Engineering at the <a href="https://www.linkedin.com/company/techarenax/">TechArenaX</a> Internship Program session.</div>

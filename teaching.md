@@ -8,9 +8,25 @@ classes: page-links-blue
 
 {% include base_path %}
 
-<p>I served as a <a href="https://ostad.app/instructor/204088" target="_blank" rel="noopener">Teaching Assistant at Ostad</a> for the <strong>Mastering DevOps</strong> program, a remote role supporting learners as they progressed from DevOps fundamentals to advanced, industry-relevant practice through live classes, hands-on labs, and capstone projects.</p>
+<p>I have taught in both university and industry settings: as Course Coordinator and Teaching Assistant for the <strong>AI Engineering Masterclass</strong> at Daffodil International University, and as a <a href="https://ostad.app/instructor/204088" target="_blank" rel="noopener">Teaching Assistant at Ostad</a> for the <strong>Mastering DevOps</strong> program.</p>
 
 <div class="teaching-content" markdown="1">
+
+### Course Coordinator & Teaching Assistant, AI Engineering Masterclass 2026
+
+*Daffodil AI Centre & Daffodil AI Club, Daffodil International University · Batch 01 · May 2026 to September 2026*
+
+Coordinated and taught Batch 01 of the AI Engineering Masterclass, a program delivered by the Daffodil AI Centre and the Daffodil AI Club under the Department of CSE.
+
+**Responsibilities**
+
+- **Program coordination:** Planning and running the Masterclass schedule across the full May to September cycle
+- **Academic support:** Supporting students through the curriculum and answering technical questions
+- **Assignment review:** Reviewing submitted assignments and returning feedback
+- **Project guidance:** Advising students on their course projects
+- **Student support:** Tracking progress and supporting students through to completion
+
+---
 
 ### Teaching Assistant, Mastering DevOps
 

@@ -21,3 +21,9 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# Private documents kept locally, never published.
+# The Ostad experience letter contains employment dates, office contact
+# details and the HR signatory's name and email.
+/Certifications/Ostad - Teaching Assistant Experience Letter.pdf
+/Certifications/Course Coordinator & Teaching Assistant.pdf

@@ -12,16 +12,20 @@ classes: page-links-blue
 
 <div class="awards-list">
   <div class="award-item">
+    <div class="award-item__title">Course Coordinator &amp; Teaching Assistant — AI Engineering Masterclass 2026 (Batch 01)</div>
+    <div class="award-item__meta">Certificate of Appreciation · Department of CSE &amp; Daffodil AI Club, Daffodil International University · 19 September 2026</div>
+  </div>
+  <div class="award-item">
     <div class="award-item__title">Speaker — DevOps Session, TechArenaX Internship Program</div>
     <div class="award-item__meta">Certificate of Appreciation · TechArenaX · 25 August 2026</div>
   </div>
   <div class="award-item">
     <div class="award-item__title">Student Organizer — AI Innovation Hackathon 2026: From Learning to Impact</div>
-    <div class="award-item__meta">Certificate of Appreciation &amp; Commemorative Crest · Department of CSE &amp; CSE AI Centre, Daffodil International University · 25 July 2026</div>
+    <div class="award-item__meta">Certificate of Appreciation &amp; Commemorative Crest · Department of CSE &amp; Daffodil AI Centre, Daffodil International University · 25 July 2026</div>
   </div>
   <div class="award-item">
     <div class="award-item__title">Problem Setter — AI Innovation Hackathon 2026: From Learning to Impact</div>
-    <div class="award-item__meta">Certificate of Appreciation · Department of CSE &amp; CSE AI Centre, Daffodil International University · 25 July 2026</div>
+    <div class="award-item__meta">Certificate of Appreciation · Department of CSE &amp; Daffodil AI Centre, Daffodil International University · 25 July 2026</div>
   </div>
   <div class="award-item">
     <div class="award-item__title">Club Coordinator — ML Bootcamp for Beginners (Powered by Shohoj Coding)</div>
